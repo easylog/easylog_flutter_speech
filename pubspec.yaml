@@ -1,6 +1,6 @@
 
-name: easylog
-description: EasyLog Flutter Client
+name: easylog_push
+description: EasyLog App mit Push Notifications
 version: 1.0.0
 
 environment:
@@ -9,7 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  speech_to_text: ^6.3.0
+  firebase_core: ^2.21.0
+  firebase_messaging: ^14.7.3
 
 dev_dependencies:
   flutter_test:
